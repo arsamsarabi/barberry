@@ -1,0 +1,27 @@
+{
+  "name": "barberry",
+  "description": "Open source expense/income tracking and budgeting application",
+  "keywords": [
+    "money",
+    "budget",
+    "expenses",
+    "savings",
+    "react",
+    "typescript",
+    "firebase"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Arsam Sarabi",
+    "email": "arsamsarabi@me.com",
+    "url": "https://arsam.dev"
+  },
+  "homepage": "https://github.com/arsamsarabi/barberry",
+  "bugs": "https://github.com/arsamsarabi/barberry/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arsamsarabi/barberry.git"
+  }
+}
