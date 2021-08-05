@@ -1,10 +1,13 @@
 import React, { FC } from 'react'
 
+import Navigation from '#navigation/Navigation'
+import ContextProvider from '#context/ContextProvider'
+
 const App: FC = () => {
   return (
-    <div className="App">
-      <h1>Hello World! 👋🏼</h1>
-    </div>
+    <ContextProvider>
+      <Navigation />
+    </ContextProvider>
   )
 }
 

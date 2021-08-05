@@ -13,7 +13,20 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "#assets/*": ["src/assets/*"],
+      "#components/*": ["src/components/*"],
+      "#constants/*": ["src/constants/*"],
+      "#pages/*": ["src/pages/*"],
+      "#styles/*": ["src/styles/*"],
+      "#context/*": ["src/context/*"],
+      "#navigation/*": ["src/navigation/*"],
+      "#lib/*": ["src/lib/*"],
+      "#utils/*": ["src/utils/*"],
+      "#types/*": ["src/types/*"]
+    }
   },
   "include": ["./src"]
 }
