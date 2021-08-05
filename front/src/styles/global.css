@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;600&family=Poppins:wght@300;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  @apply w-screen h-screen font-main;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-heading font-semibold;
+}
+
+#root {
+  @apply w-screen h-screen bg-fiord text-common-white border-4 border-common-white rounded-md;
+}
